@@ -1,0 +1,53 @@
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.form-group {
+  width: 45%;
+  margin: 20px;
+    font-size: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group label[for="history"],
+.form-group label[for="nature"],
+.form-group label[for="food"],
+.form-group label[for="nightlife"],
+.form-group label[for="shopping"] {
+  font-size: 14px;
+}
+
+.form-group input[type="checkbox"] {
+  transform: scale(0.8);
+  margin-right: 5px;
+}
+
+select, input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+button {
+  background-color: #003b40;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
